@@ -1,4 +1,12 @@
 SceneTracker::Application.routes.draw do
+
+  get "feed/index"
+  devise_for :views
+  devise_for :fans
+  resources :fans
+
+  root 'feed#index'
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
