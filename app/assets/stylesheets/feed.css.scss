@@ -1,7 +1,8 @@
 // Place all the styles related to the feed controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-@import url(http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise);
+// @import url(http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise);
+@font-face { font-family: 'Waiting for the Sunrise'; src: url('http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise'); } 
 
 body {
 	background: transparent url('argyle.png') repeat top left;	
@@ -221,14 +222,6 @@ body {
 }
 .large-centered {
 	z-index: 60;
-    p {
-        @import url(http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise);    
-        text-align: center;
-        font-family: "Waiting for the Sunrise";
-        font-size: 20px;
-        color: #c70021;
-        font-weight: 900;
-    }
 }
 .stupid {
 	width: 100%;
@@ -239,6 +232,13 @@ body {
 	background-size: contain;
 	line-height: 260px;
 	z-index: 60;
+}
+p {
+	text-align: center;
+	font-family: "Waiting for the Sunrise";
+	font-size: 20px;
+	color: #c70021;
+	font-weight: 900;
 }
 .fill {
 	height: 50px;
