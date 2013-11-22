@@ -4,7 +4,7 @@
 @import url(http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise);
 
 body {
-	background: transparent url('/public/assets/argyle.png') repeat top left;	
+	background: transparent url('argyle.png') repeat top left;	
 }
 
 .cb-slideshow,
@@ -55,26 +55,26 @@ body {
 }
 
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url('/public/assets/angie_wow2.jpg') 
+    background-image: url('angie_wow2.jpg') 
 }
 .cb-slideshow li:nth-child(2) span { 
-    background-image: url('/public/assets/rr_beerland.jpg');
+    background-image: url('rr_beerland.jpg');
     -webkit-animation-delay: 6s; 
 }
 .cb-slideshow li:nth-child(3) span { 
-    background-image: url('/public/assets/april.jpg');
+    background-image: url('april.jpg');
     -webkit-animation-delay: 12s; 
 }
 .cb-slideshow li:nth-child(4) span { 
-    background-image: url('/public/assets/whole_band.jpg');
+    background-image: url('whole_band.jpg');
     -webkit-animation-delay: 18s; 
 }
 .cb-slideshow li:nth-child(5) span { 
-    background-image: url('/public/assets/brian_beerland.jpg');
+    background-image: url('brian_beerland.jpg');
     -webkit-animation-delay: 24s; 
 }
 .cb-slideshow li:nth-child(6) span { 
-    background-image: url('/public/assets/fight_plan.jpg');
+    background-image: url('fight_plan.jpg');
     -webkit-animation-delay: 30s; 
 }
  
@@ -132,7 +132,7 @@ body {
 .stupid {
 	width: 100%;
 	height: 260px;
-	background-image: url('/public/assets/atxpunx.png');
+	background-image: url('atxpunx.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
