@@ -50,6 +50,9 @@ gem 'rails_12factor', group: :production
 # Use unicorn as the app server
 gem 'unicorn'
 
+# Meta tags for FB and beyond!
+gem 'meta-tags', :require => 'meta_tags'
+
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
 
